@@ -1,17 +1,3 @@
-# Name: Ethan Van Hao
-# OSU Email: vanhaoe@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6 - HashMap (Portfolio Assignment)
-# Due Date: 3/13/2025
-# Description: A Separate Chain HashMap implementation of the HashMap class. This class has the ability to
-#              add new values to the hashmap, resize its capacity, calculate table load using a function and
-#              count the amount of empty buckets. It can also retrieve a value from the HashMap using a key,
-#              check if a key is present HashMap, remove a key/value pair, return a tuple of all the key/value
-#              pairs and clear the key/value pairs from the HashMap. Lastly, a find_mode function was created
-#              to be able to go through a DynamicArray and use a HashMap to find the mode/modes and frequency
-#              of the mode and return it as a tuple.
-
-
 from a6_include import (DynamicArray, LinkedList,
                         hash_function_1, hash_function_2)
 
