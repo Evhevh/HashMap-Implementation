@@ -1,15 +1,3 @@
-# Name: Ethan Van Hao
-# OSU Email: vanhaoe@oregonstate.edu
-# Course: CS261 - Data Structures
-# Assignment: 6 - HashMap (Portfolio Assignment)
-# Due Date: 3/13/2025
-# Description: An Open Addressing iteration of the HashMap class that uses quadratic probing and tombstones
-#              to perform the various functions that a HashMap class should perform. This HashMap class is able
-#              to update, remove, retrieve, and check for key/value pairs based on a given key. The HashMap
-#              will also resize appropriately when a key/value pair is added and can also clear the HashMap is
-#              desired. An array that contains all the key/value pairs can also be created an iterator
-#              implementation that is unique to this class was also made.
-
 from a6_include import (DynamicArray, DynamicArrayException, HashEntry,
                         hash_function_1, hash_function_2)
 
